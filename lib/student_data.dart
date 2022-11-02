@@ -1,15 +1,9 @@
 import 'package:practice/model.dart';
 
-class Info{
-  List <Model> _studentData =[
-    Model(name: 'soumitro', roll: '1564652', phone: '0514562120', email: 'aihf@gmail.com'),
-    Model(name: 'soumitro', roll: '1564652', phone: '0514562120', email: 'aihf@gmail.com'),
-    Model(name: 'soumitro', roll: '1564652', phone: '0514562120', email: 'aihf@gmail.com'),
+class StudentData{
+  List<Model> studentData = [
+    Model(name: 'somitro', roll: '54545', email: 'somitro@gmail.com'),
+    Model(name: 'kader', roll: '54545', email: 'afas@gmail.com'),
+    Model(name: 'paul', roll: '54545', email: 'paul@gmail.com'),
   ];
-
-  Future<List<Model>> getData() async {
-   await Future.delayed(Duration(seconds: 5));
-    return _studentData;
-  }
-
 }
